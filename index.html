@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="css/style.css">
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+  		<script src="https://apis.google.com/js/api.js"></script>
+  		<script src="js/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
+  		<script src="js/teamDesc.js"></script>
+  		<script src="js/anggota.js"></script>
+  		<script src="js/functions.js"></script>			
+
+		<title>Praktek Kimia Terpadu 2 | ANGKATAN 61 | SMK-SMAK BOGOR</title>
+
+	</head>
+
+	<body>		
+
+		<header id="header">
+			<div class="innertube">
+				<table></table>
+				<p><a href="index.html">Home</a>&nbsp;|&nbsp;
+				<a href="https://drive.smakbo.sch.id" 
+				  target="popup"
+				  onclick="window.open('http://drive.smakbo.sch.id','popup','width=400,height=400'); return false;">
+					Login
+				</a></p>
+			</div>
+		</header>
+				
+		<main>
+			<div class="innertube">
+				<p>
+					<iframe id="pdf_load" src="main.html" width="800px" height="2100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</p>
+			</div>
+		</main>
+
+		<nav id="left">
+			<div class="innertube">
+			<!--button onclick="myFunction()">Try it</button-->
+				<!-- This is from Bootstrap for collapsing panels -->
+				<div class="panel-group" id="accordion">
+				  <div class="panel panel-default">
+					
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">FARMASI</a>
+					  </h4>
+					</div>
+
+					<div id="collapse1" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(02)>Analisis Mutu Obat Tradisional Merek ‘X’ (Obat Anti Diare)</a></li>
+							<li><a href="#" onClick=loadTeam(12)>Analisis Mutu Obat Maag Tablet Merk X</a></li>
+							<li><a href="#" onClick=loadTeam(24)>Analisis Mutu Obat Anti Jamur (Anti Fungional) Berbentuk Cair Merek “X”</a></li>
+							<li><a href="#" onClick=loadTeam(31)>Analisis Mutu Obat Tradisional Daun Kumis Kucing</a></li>
+							<li><a href="#" onClick=loadTeam(34)>Analisis Mutu Obat Batuk Sirup Merk “X”</a></li>
+							<li><a href="#" onClick=loadTeam(44)>ANALISIS TOTAL JAMU SARIAWAN USUS MEREK “X”</a></li>
+							<li><a href="#" onClick=loadTeam(54)>ANALISIS MUTU JAMU UNTUK ANAK MEREK “X”</a></li>
+							<li><a href="#" onClick=loadTeam(62)>ANALISIS MUTU OBAT KUMUR SARIAWAN MEREK “X”</a></li>
+							<li><a href="#" onClick=loadTeam(70)>ANALISIS MUTU TABLET HISAP PEREDA RADANG TENGGOROKAN</a></li>
+							<li><a href="#" onClick=loadTeam(76)>Analisis Mutu Obat Batuk Tradisional dari Buah Lo Han Kuo (Siraitia grosvenorii) Merk “X”</a></li>
+						</ul></div>
+					</div>
+				  </div>
+				  
+				  <div class="panel panel-default">
+				
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">KOSMETIK</a>
+					  </h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(7)>Pembuatan dan analisis losion dengan memanfaatkan ekstrak tomat (solanum lycopersicum) dan air tajin</a></li>
+							<li><a href="#" onClick=loadTeam(16)>Sintesis dan analisis masker detoks wajah dari lempung bentonit dan arang aktif bambu (activated bamboo charcoal) dengan bahan tambahan tea tree oil (melaleuca alternifolia)</a></li>
+							<li><a href="#" onClick=loadTeam(22)>Sintesis dan analisis losion kulit dari campuran bahan organik dengan ekstrak lidah buaya (aloe barbandensis mill.) dan biji bunga matahari (helianthus annuus l.)</a></li>
+							<li><a href="#" onClick=loadTeam(30)>Pemanfaatan dan analisis kulit pisang (musa acuminata) sebagai bahan dasar pembuatan losio kulit beraroma chamomile</a></li>
+							<li><a href="#" onClick=loadTeam(36)>Pembuatan dan analisis gel pembersih kulit muka dari daun binahong (anredera cordifolia) dan gel lidah buaya (aloe vera) beraroma lemon</a></li>
+							<li><a href="#" onClick=loadTeam(43)>Pembuatan tabir surya dari bahan zinc oxide dan ekstrak wortel (daucus carota)</a></li>
+							<li><a href="#" onClick=loadTeam(51)>Pembuatan dan analisis lipbalm organik dengan zat warna alami kulit buah naga (hylocereus polyrhizus)</a></li>
+							<li><a href="#" onClick=loadTeam(57)>Pembuatan dan analisis masker peel-off dengan ekstrak campuran kulit pisang raja (musa sapientium) dan kulit semangka (citrullus lanatus)</a></li>
+							<li><a href="#" onClick=loadTeam(67)>Pembuatan dan analisis lulur dengan bahan dasar ekstrak daun jambu biji (psidium guajava) kulit jeruk (citrus sinensis) dan cangkang telur</a></li>
+							<li><a href="#" onClick=loadTeam(79)>Pembuatan dan analisis minyak rambut jenis pomade (bahan dasar air) dari minyak kemiri (aleurites moluccana) dan minyak zaitun (olea europaea) dengan bahan tambahan ekstrak bijih pepaya (carica papaya l) dan lemon (citrus limon) sebagai nutrisi rambut</a></li>				
+						</ul></div>
+					</div>
+				  </div>
+				  <div class="panel panel-default">
+					
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">LINGKUNGAN</a>
+					  </h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(4)>Pembuatan dan analisis arang aktif ampas kopi sebagai adsorben logam berat dalam air limbah</a></li>
+							<li><a href="#" onClick=loadTeam(13)>Pemanfaatan dan analisis kulit singkong sebagai pakan ternak ayam pedaging</a></li>
+							<li><a href="#" onClick=loadTeam(23)>Pembuatan dan analisis poly aluminium chloride (pac) dari limbah kaleng minuman sebagai penjernih air</a></li>
+							<li><a href="#" onClick=loadTeam(32)>Pembuatan dan analisis bioadsorben arang aktif dari kulit pisang (musa paradisiaca) untuk adsorbsi Pb dalam air limbah AI-2 SMK-SMAK Bogor</a></li>
+							<li><a href="#" onClick=loadTeam(37)>Pembuatan penyerap polusi udara beraroma dari ekstrak tanaman lidah mertua (sansevieria trifasciata prain)</a></li>
+							<li><a href="#" onClick=loadTeam(42)>Plastik biodegradable (artocarpus heterophyllus)</a></li>
+							<li><a href="#" onClick=loadTeam(50)>Sintesis dan analisis media tanam dari limbah kertas dengan penambahan mikroorganisme lokal</a></li>
+							<li><a href="#" onClick=loadTeam(59)>Pembuatan dan analisis biodiesel berbahan dasar biji nyamplung (calophyllum inophyllum l.) dengan katalis homogen koh</a></li>
+							<li><a href="#" onClick=loadTeam(72)>Pembuatan dan analisis briket bioarang dari limbah kulit durian (durio zibethinus) dan kulit pisang (musa sp) </a></li>
+							<li><a href="#" onClick=loadTeam(77)></a></li>
+						</ul></div>
+					</div>
+				  </div>
+ 
+ 				  <div class="panel panel-default">
+				
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">MAKANAN</a>
+					  </h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(1)>Pemanfaatan kulit jeruk manis (citrus sinensis) sebagai bahan permen jelly kaya anti oksidan</a></li>
+							<li><a href="#" onClick=loadTeam(3)>Pembuatan dan analisis naget tinggi protein berbahan dasar tempe</a></li>
+							<li><a href="#" onClick=loadTeam(9)>Pembuatan dan analisis sosis jamur merang (volvariella volvacea) dengan tepung dari ampas kelapa (cocos nucifera)</a></li>
+							<li><a href="#" onClick=loadTeam(17)>Pemanfaatan tutut (pila ampullacea) dan ubi jalar (ipomoea batatas l) sebagai tepung alternatif dalam pembuatan kue kering tinggi protein</a></li>
+							<li><a href="#" onClick=loadTeam(29)>Pembuatan dan analisis selai cokelat dari bubuk kakao (theobroma cacao l.) dan buah alpukat (persea americana)</a></li>
+							<li><a href="#" onClick=loadTeam(33)>Pembuatan dan analisis biskuit anti diabetes dari tepung biji alpukat (perceaamaricana miil)</a></li>
+							<li><a href="#" onClick=loadTeam(45)>Pembuatan dan analisis permen jelly dengan pewarna alami antosianin dari kulit buah naga merah (hylocereus polyrhizus)</a></li>
+							<li><a href="#" onClick=loadTeam(47)>Pembuatan dan analisis cookies dari tepung biji durian (durio zibethinus)</a></li>
+							<li><a href="#" onClick=loadTeam(49)>Pembuatan dan analisis permen jelly dengan ekstrak bunga rosella (hibiscus sabdariffa linn)</a></li>
+							<li><a href="#" onClick=loadTeam(52)>Pemanfaatan biji buah ketapang (terminalia catappa) dalam pembuatan dan analisis nougat sebagai camilan yang sehat dan rendah kalori</a></li>
+							<li><a href="#" onClick=loadTeam(58)>Pemanfaatan buah sukun (atrocarpus atilis) menjadi tepung alternatif sebagai bahan baku pembuatan mie dengan ektrak ubi ungu (ipomoea batatas)</a></li>
+							<li><a href="#" onClick=loadTeam(61)>Pembuatan dan analisis es krim kaya nutrisi dengan buah bit (beta vulgaris l) dan buah alkesa (pauteria campechiana)</a></li>				
+							<li><a href="#" onClick=loadTeam(66)>Pembuatan dan analisis es krim kaya nutrisi dengan buah bit (beta vulgaris l) dan buah alkesa (pauteria campechiana)</a></li>				
+							<li><a href="#" onClick=loadTeam(71)>Pembuatan dan analisis es krim kaya nutrisi dengan buah bit (beta vulgaris l) dan buah alkesa (pauteria campechiana)</a></li>				
+							<li><a href="#" onClick=loadTeam(78)>Pembuatan dan analisis es krim kaya nutrisi dengan buah bit (beta vulgaris l) dan buah alkesa (pauteria campechiana)</a></li>				
+							<li><a href="#" onClick=loadTeam(80)>Pembuatan dan analisis es krim kaya nutrisi dengan buah bit (beta vulgaris l) dan buah alkesa (pauteria campechiana)</a></li>				
+						</ul></div>
+					</div>
+				  </div>
+
+				  <div class="panel panel-default">
+					
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">MINUMAN</a>
+					  </h4>
+					</div>
+					<div id="collapse5" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(8)></a></li>
+							<li><a href="#" onClick=loadTeam(11)>Pembuatan dan analisis minuman pengganti susu kental manis dengan bahan baku tempe</a></li>
+							<li><a href="#" onClick=loadTeam(15)>Pembuatan dan analisis minuman sari buah mangga dengan penambahan madu</a></li>
+							<li><a href="#" onClick=loadTeam(20)>Pembuatan dan analisis yoghurt dari biji nangka (artocarpus heterophyllus)</a></li>
+							<li><a href="#" onClick=loadTeam(26)>Pembuatan dan analisis minuman energi ekstrak gingseng (panax) dan jahe (zingiber officinale rosc) dengan rasa jeruk nipis (citrus aurantiifolia)</a></li>
+							<li><a href="#" onClick=loadTeam(28)>Minuman serbuk antioksidan dari buah bit (beta vulgaris l) dengan perisa jambu biji (psidium guajava)</a></li>
+							<li><a href="#" onClick=loadTeam(38)>Pembuatan dan analisis minuman sari ketan hitam (oryza sativa var. glutinosa) dengan pemanis gula aren (arenga pinnata)</a></li>
+							<li><a href="#" onClick=loadTeam(39)>Sintesis dan analisis minuman sari kedelai dengan pemanis ekstrak daun stevia (stevia rebaudiana)</a></li>
+							<li><a href="#" onClick=loadTeam(41)>Sintesis dan analisis minuman sari buah mengkudu (morinda citrifolia) dengan tambahan sari buah lemon (citrus limon) dan buah apel (malus domestica)</a></li>
+							<li><a href="#" onClick=loadTeam(46)>Pembuatan dan analisis minuman isotonik berbahan baku daun mint(mentha x piperita)</a></li>
+							<li><a href="#" onClick=loadTeam(53)>Pembuatan dan analisis minuman isotonik dari buah sirsak (annona muricata linn) dan garam laut (natural sea salt)</a></li>
+							<li><a href="#" onClick=loadTeam(55)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(60)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(63)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(65)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(69)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(74)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 							<li><a href="#" onClick=loadTeam(75)>Pembuatan dan analisis minuman berkarbonasi dengan jeli antioksidan dari mangga (magnifera indica l.)</a></li>					
+ 						</ul></div>
+					</div>
+				  </div>
+				  
+				  <div class="panel panel-default">
+				
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">MANUFAKTUR</a>
+					  </h4>
+					</div>
+					<div id="collapse6" class="panel-collapse collapse">
+					  <div class="panel-body">
+						<ul>
+							<li><a href="#" onClick=loadTeam(5)>Pembuatan dan analisis sabun cuci tangan dengan penambahan gel lidah buaya (aloe vera) dan ekstrak vanili (vanilla planifolia)</a></li>
+							<li><a href="#" onClick=loadTeam(6)>Pembuatan dan analisis biofuel sebagai alternatif minyak tanah dari biji buah bintaro (cerbera manghas l.)</a></li>
+							<li><a href="#" onClick=loadTeam(10)>Pembuatan dan analisis detergen dengan zat aktif saponin dari ekstrak daun pepaya(carica papaya l.)</a></li>
+							<li><a href="#" onClick=loadTeam(14)>Pembuatan dan analisis sabun cuci piring dari minyak goreng bekas (minyak jelantah) dan lidah buaya (aloe vera)</a></li>
+							<li><a href="#" onClick=loadTeam(18)>Pembuatan dan analisis pembersih kaca mobil dari ampas tebu (bagasse)</a></li>
+							<li><a href="#" onClick=loadTeam(21)>Pembuatan dan analisis penolak nyamuk spray dengan ekstrak seledri (apium graveolens)</a></li>
+							<li><a href="#" onClick=loadTeam(25)>Sintesis dan karakterisasi kalsium ferit menggunakan pasir besi dan batu kapur</a></li>
+							<li><a href="#" onClick=loadTeam(27)>Pembuatan dan analisis detergen cair biodegradable (zat aktif metil ester sulfonat) dengan daya cuci maksimal</a></li>
+							<li><a href="#" onClick=loadTeam(35)>Pembuatan dan analisis ekosemen dari sampah organik dan cangkang kerang darah (anadara granosa)</a></li>
+							<li><a href="#" onClick=loadTeam(40)>Sintesis dan analisis pakan ayam ras pedaging dengan pemanfaatan ampas tahu</a></li>
+							<li><a href="#" onClick=loadTeam(48)>Pembuatan dan analisis sabun mandi cair dengan bahan tambahan arang aktif dari bambu (bambusa sp.)</a></li>
+							<li><a href="#" onClick=loadTeam(56)>Pembuatan dan analisis sabun mandi cair dengan bahan tambahan arang aktif dari bambu (bambusa sp.)</a></li>
+							<li><a href="#" onClick=loadTeam(64)>Pembuatan dan analisis sabun mandi cair dengan bahan tambahan arang aktif dari bambu (bambusa sp.)</a></li>
+							<li><a href="#" onClick=loadTeam(68)>Pembuatan dan analisis sabun mandi cair dengan bahan tambahan arang aktif dari bambu (bambusa sp.)</a></li>
+							<li><a href="#" onClick=loadTeam(73)>Pembuatan dan analisis sabun mandi cair dengan bahan tambahan arang aktif dari bambu (bambusa sp.)</a></li>
+						</ul></div>
+					</div>
+				  <!--/div-->
+
+			    </div>
+		</nav>	
+		
+		<div id="right">
+			<div class="innertube">
+				<p id=team_load></p>
+				<p id=ppt_load></p>	
+			
+			</div>
+		</div>
+		
+		<footer id="footer">
+			<div class="innertube">
+				<p align="right">Copyright 2016 - 2018 - SMK SMAK BOGOR</p>
+			</div>
+		</footer>	
+			
+	</body>
+</html>
