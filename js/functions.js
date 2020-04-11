@@ -22,8 +22,8 @@ function loadTeam(kelompok){
 	 	detailTeam = detailTeam + "</ul>";
 	}
 	
-   	//file_loc = "https://drive.google.com/file/d/" + team_lap_file + "/preview";
-   	file_loc = "materi/" + team_rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
+   	file_loc = "https://drive.google.com/file/d/" + team_lap_file + "/preview";
+   	//file_loc = "materi/" + team_rubrik + "Kelompok" + kelompok + "-Laporan.pdf";
 	ppt_loc =  "materi/" + team_rubrik + "Kelompok" + kelompok + "-Presentasi.pdf";
 	ppt_link =  '<a href="'+ppt_loc+'" target="ppt">'+'File Presentasi'+'</a>';	
 	//window.alert(file_loc);
